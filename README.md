@@ -33,16 +33,23 @@ Visit the website: [Join]( https://chitchatz-he8g.onrender.com/login)
 
 To run the project locally, follow these steps:
 
+## 🛠️ Getting Started
+
+To run the project locally, follow these steps:
+
 ### 📁 1. Clone the Repository
 ```bash
 git clone https://github.com/Abhishek-singh-007/ChitChatz.git
 cd ChitChatz
-### 📁 2. Open Frontend
-cd frontent
+```
+### 🌐 2. Open Frontend
+```bash
+cd frontend
 npm install
 npm run dev
-### 📁 3. Open Backend
+```
+### 🔌 3. Open Backend
+```bash
 cd backend
 npm install
 node index.js
-
