@@ -21,17 +21,13 @@ Visit the website: [Join]( https://chitchatz-he8g.onrender.com/login)
 
 ### 🔷 Frontend: React.js (Vite), DaisyUI, HTML5 and CSS3
 
-### 🟩 Backend:  Node.js, Express.js and Socket.io(for real-time Communication)
+### 🟩 Backend: Node.js, Express.js and Socket.io(for real-time Communication)
 
-### 🗃️ Database:MongoDB (NoSQL)
+### 🗃️ Database: MongoDB (NoSQL)
 
-### 🧠 AI / Machine Learning:  TensorFlow.js, Natural Language Processing (NLP), Custom-trained model for toxic comment filtering
+### 🧠 AI / Machine Learning: TensorFlow.js, Natural Language Processing (NLP), Custom-trained model for toxic comment filtering
 
 ---
-
-## 🛠️ Getting Started
-
-To run the project locally, follow these steps:
 
 ## 🛠️ Getting Started
 
