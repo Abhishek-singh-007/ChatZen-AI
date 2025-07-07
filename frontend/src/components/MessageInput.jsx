@@ -32,6 +32,37 @@ const MessageInput = () => {
     e.preventDefault();
     if (!text.trim() && !imagePreview) return;
 
+    // ✅ Chatty Bot Trigger
+    if (text.startsWith("@chatty")) {
+      try {
+        const res = await fetch("/api/chatty", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ message: text.replace("@chatty", "").trim() }),
+        });
+
+        const data = await res.json();
+        if (data.reply) {
+          await sendMessage({
+            text: `🤖 Chatty: ${data.reply}`,
+            image: null,
+          });
+        } else {
+          toast.error("Chatty didn't respond.");
+        }
+      } catch (err) {
+        console.error("Chatty error:", err);
+        toast.error("Failed to reach Chatty.");
+      }
+
+      // Clear form
+      setText("");
+      setImagePreview(null);
+      if (fileInputRef.current) fileInputRef.current.value = "";
+      return;
+    }
+
+    // ✅ Normal message send
     try {
       await sendMessage({
         text: text.trim(),

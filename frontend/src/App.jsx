@@ -13,6 +13,8 @@ import { useEffect } from "react";
 
 import { Loader } from "lucide-react";
 import { Toaster } from "react-hot-toast";
+import ChatBotPage from "./pages/ChatBotPage";
+<Route path="/chatbot" element={<ChatBotPage />} />;
 
 const App = () => {
   const { authUser, checkAuth, isCheckingAuth, onlineUsers } = useAuthStore();

@@ -4,6 +4,13 @@ import { useAuthStore } from "../store/useAuthStore";
 import SidebarSkeleton from "./skeletons/SidebarSkeleton";
 import { Users } from "lucide-react";
 
+import { Link } from "react-router-dom";
+
+// Inside your sidebar UI JSX:
+<Link to="/chatbot" className="hover:text-purple-400">
+  🤖 ChatBot
+</Link>;
+
 const Sidebar = () => {
   const { getUsers, users, selectedUser, setSelectedUser, isUsersLoading } =
     useChatStore();
