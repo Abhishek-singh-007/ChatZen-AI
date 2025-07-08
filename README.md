@@ -16,7 +16,7 @@ Visit the website: [Join]( https://chitchatz-he8g.onrender.com/login)
 - 🔐 End-to-End Encryption and user-friendly UI/UX.
 
 ---
-![Cover Image](https://github.com/Abhishek-singh-007/ChitChatz/blob/main/images/Screenshot%202025-07-06%20193123.png)
+![Meet Kusiii Ai](https://github.com/Abhishek-singh-007/ChitChatz/blob/main/frontend/public/aaaaaaaa.png)
 
 ## 🚀 Tech Stack
 
