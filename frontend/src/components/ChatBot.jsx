@@ -21,7 +21,7 @@ const ChatBot = () => {
       const res = await axiosInstance.post("/chatty", { message: input });
       const botReply = res.data.reply || "No response";
 
-      setMessages((prev) => [...prev, { sender: "ChatBot", text: botReply }]);
+      setMessages((prev) => [...prev, { sender: "Kusii", text: botReply }]);
     } catch (error) {
       console.error("Chat error:", error);
       setMessages((prev) => [
@@ -73,8 +73,8 @@ const ChatBot = () => {
               key={i}
               className={`max-w-[75%] px-4 py-2 rounded-xl text-sm whitespace-pre-line ${
                 msg.sender === "You"
-                  ? "bg-purple-600 text-white ml-auto text-right"
-                  : "bg-gray-200 text-black mr-auto text-left"
+                  ? "bg-purple-600 text-black ml-auto text-right"
+                  : "bg-yellow-200 text-black mr-auto text-left"
               }`}
             >
               <strong>{msg.sender}:</strong> {msg.text}
