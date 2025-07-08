@@ -11,7 +11,7 @@ Visit the website: [Join]( https://chitchatz-he8g.onrender.com/login)
 
 - 💬 **Real-time Chat:** Send and receive messages instantly using WebSockets.
 - 🖼️ **Media Sharing:** Send and receive images in chat.
-- 🤖 **AI-Powered Chatbot:** Integrated chatbot named **Chatty** built using **TensorFlow** and **NLP techniques** to reduce toxicity and enhance user experience.
+- 🤖 **AI-Powered Chatbot:** Integrated chatbot named **Kusii** built using **TensorFlow** and **NLP techniques** to reduce toxicity and enhance user experience.
 - 💸 **Payment Module:** (🚧 _In Progress_) Allows users to send payments to friends securely.
 - 🔐 End-to-End Encryption and user-friendly UI/UX.
 
