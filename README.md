@@ -1,4 +1,4 @@
-# 🗨️ ChitChatz - Real-Time AI Powered Chat Application
+# 🗨️ ChatZen AI - Real-Time AI Powered Chat Application
 
 ![Cover Image](https://github.com/Abhishek-singh-007/ChitChatz/blob/main/images/Screenshot%202025-07-06%20193123.png)
 
