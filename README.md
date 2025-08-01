@@ -7,7 +7,7 @@ Visit the website: [Join]( https://chitchatz-he8g.onrender.com/login)
 
 ## 📌 About the Project
 
-**ChitChatz** is a feature-rich, real-time, end-to-end encrypted chat application built for modern web communication.
+**ChatZen AI** is a feature-rich, real-time, end-to-end encrypted chat application built for modern web communication.
 
 - 💬 **Real-time Chat:** Send and receive messages instantly using WebSockets.
 - 🖼️ **Media Sharing:** Send and receive images in chat.
